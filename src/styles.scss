@@ -1,0 +1,139 @@
+/* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+.tooltip {
+    border-bottom: dotted 1px gray;
+    padding-top: 1rem;
+    margin-top: -1rem;
+    padding-bottom: .1rem;
+  }
+
+  /* Change the white to any color */
+  .login_panel{
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus, 
+input:-webkit-autofill:active{
+    -webkit-box-shadow: 0 0 0 30px #3d5b78 inset !important
+}
+  }
+
+
+  .tooltip_new_password {
+    background:#1A3951 !important;
+    width: 170px!important;
+    height: 80px !important;
+    color: white;
+    text-align: left;
+    line-height: 13px;
+    margin-top: 2px!important;
+}
+.tooltip_new_password::after{
+  border-color: #0000 #1A3951 #0000 #0000 !important;
+
+}
+.tip_new{
+  line-height: 13px;
+  font-size: 8px;
+  text-align: left;
+}
+.tip_content{
+  margin-top: -10px !important;
+}
+.main_heading{
+  font-size: 12px;
+  margin-bottom: 0px !important;
+}
+
+.p-0 .mat-list-item-content {
+  padding: 0 !important;
+}
+#main_login{
+  min-height: auto!important;
+  border-radius: 10px;
+}
+.login_panel{
+  height: auto!important;
+}
+
+@media only screen  and (max-width: 766px)  
+{
+.feature_of_investing{
+  width:100%!important;
+  background: white;
+}
+}
+@media only screen and (max-width: 928px)
+{
+  .formfield{
+    margin-left: 0px!important;
+    width: 100%!important;
+  }
+}
+@media only screen and (min-width: 440px)  and (max-width: 760px)
+{
+.screen_heading{
+  margin-left: 92px!important;
+}
+}
+@media only screen and (min-width: 416px)  and (max-width: 908px)
+{
+ .dashboard_box{
+   width: 80%!important;
+ } 
+}
+
+@media only screen and (max-width: 415px)
+{
+.dashboard_box{
+  width: 100%!important;
+  margin: 0px!important;
+  border-radius: 0px!important;
+}
+.background{
+  background-image: unset!important;
+  // display: block !important;
+  height: auto!important;
+}
+.feature_of_investing{
+  display: block !important;
+}
+.moblogo{
+  display: block !important;
+  background: white !important;
+}
+.laplogo{
+  display: none;
+}
+#main_login{
+  width: 100%!important;
+}
+.button1{
+  width: 85% !important;
+  margin-left: 0px!important;
+}
+.example-full-width{
+  width: 85% !important;
+}
+.mainheading{
+  text-align: unset !important;
+  margin-left: 25px !important;
+}
+.screen_heading{
+  margin-left: 25px!important;
+}
+.icon{
+  margin-left: 25px!important;
+}
+.elertmsg{
+  margin-left: 25px!important;
+}
+.dashboard_component{
+  padding: 25px!important;
+}
+lottie-player{
+  width: 100%!important;
+}
+}
